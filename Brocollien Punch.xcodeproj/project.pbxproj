@@ -14,6 +14,7 @@
 		F1F4EBE51E5F3BA900B56353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F4EBE31E5F3BA900B56353 /* LaunchScreen.storyboard */; };
 		F1F4EBF01E5F3BA900B56353 /* Brocollien_PunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4EBEF1E5F3BA900B56353 /* Brocollien_PunchTests.swift */; };
 		F1F4EBFB1E5F3BA900B56353 /* Brocollien_PunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F4EBFA1E5F3BA900B56353 /* Brocollien_PunchUITests.swift */; };
+		F1F4EC091E5F3D4E00B56353 /* Gagalin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F1F4EC081E5F3D4E00B56353 /* Gagalin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F1F4EBF61E5F3BA900B56353 /* Brocollien PunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Brocollien PunchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F4EBFA1E5F3BA900B56353 /* Brocollien_PunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brocollien_PunchUITests.swift; sourceTree = "<group>"; };
 		F1F4EBFC1E5F3BA900B56353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F4EC081E5F3D4E00B56353 /* Gagalin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gagalin.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F1F4EBE11E5F3BA900B56353 /* Assets.xcassets */,
 				F1F4EBE31E5F3BA900B56353 /* LaunchScreen.storyboard */,
 				F1F4EBE61E5F3BA900B56353 /* Info.plist */,
+				F1F4EC081E5F3D4E00B56353 /* Gagalin.otf */,
 			);
 			path = "Brocollien Punch";
 			sourceTree = "<group>";
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "dactrtr z";
 				TargetAttributes = {
 					F1F4EBD61E5F3BA900B56353 = {
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F4EBE51E5F3BA900B56353 /* LaunchScreen.storyboard in Resources */,
+				F1F4EC091E5F3D4E00B56353 /* Gagalin.otf in Resources */,
 				F1F4EBE21E5F3BA900B56353 /* Assets.xcassets in Resources */,
 				F1F4EBE01E5F3BA900B56353 /* Main.storyboard in Resources */,
 			);
@@ -327,7 +331,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -335,7 +341,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -377,7 +387,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -385,7 +397,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -514,6 +530,7 @@
 				F1F4EC011E5F3BA900B56353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F4EC021E5F3BA900B56353 /* Build configuration list for PBXNativeTarget "Brocollien PunchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +539,7 @@
 				F1F4EC041E5F3BA900B56353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1F4EC051E5F3BA900B56353 /* Build configuration list for PBXNativeTarget "Brocollien PunchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +548,7 @@
 				F1F4EC071E5F3BA900B56353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
